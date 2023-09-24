@@ -46,7 +46,8 @@ Between lines 3 and 6 multi line indent 3 times to the right.
 ```:3,6<<```
 Indent 2 times to the left.
 
-```CTRL+v
+```
+CTRL+v
 <up><down>
 SHIFT+i
 #
