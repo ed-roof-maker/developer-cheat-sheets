@@ -116,7 +116,7 @@ Turn on syntax highlighting.
 ```:retab```
 Change all tabs in the current file to the defaults in .vimrc.
 
-### VIM .vmrc
+### VIM .vimrc
 ```:set number```
 Show line numbers.
 
