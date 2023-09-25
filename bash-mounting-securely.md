@@ -8,8 +8,7 @@ Decrypt luks device.
 ```mount /dev/mapper/sda1_crypt /mnt/temp -o rw,nodev,nosuid,sync,noexec --make-unbindable```
 Mount the volume as read write.
 
-```mount /dev/mapper/sda1_crypt /mnt/temp -o ro,nodev,nosuid,sync,noexec --
-make-unbindable```
+```mount /dev/mapper/sda1_crypt /mnt/temp -o ro,nodev,nosuid,sync,noexec --make-unbindable```
 Mount the volume as read only.
 
 ```
