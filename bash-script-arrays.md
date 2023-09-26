@@ -1,3 +1,7 @@
+# Bash Cheat Sheet
+Commonly used console commands.
+
+## Working with Arrays
 ```
 a=('orange' 'pear')
 item='apples'
@@ -51,7 +55,12 @@ echo 'Total Lines: '${#global_arr[@]}
 ```
 Working loop example.
 
-
-
+```
+PATH=/etc/sudoers.d/custom.txt
+IFS='/' read -ra pa <<< ${PATH} # Create path array pa from PATH
+custom_suffix=${pa[-1]:-3:0}
+# Returns '.txt'
+```
+String into array example.
 
 
