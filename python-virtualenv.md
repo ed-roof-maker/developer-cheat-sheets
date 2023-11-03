@@ -42,9 +42,3 @@ pip install -r requirements.txt
 Install current requirements.txt file
 
 
-```
-source bin/deactivaite
-```
-Exit the virtual environment in your current emulated terminal session.
-
-
